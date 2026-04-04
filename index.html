@@ -4,102 +4,83 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ReserveNow | Easy Online Reservations</title>
-  <meta name="description" content="ReserveNow makes booking tables, rooms, and appointments quick and easy.">
+  <title>Negombo House | Tropical Stay in Sri Lanka</title>
+  <meta name="description" content="A beautiful tropical house in Negombo, Sri Lanka.">
 
-  <meta property="og:title" content="ReserveNow | Easy Online Reservations">
+  <meta property="og:title" content="Negombo House | Tropical Stay in Sri Lanka">
   <meta property="og:type" content="website">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
-  <meta property="og:image:alt" content="Reservation website preview">
+  <meta property="og:image:alt" content="Negombo house logo">
 
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#0f172a">
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header class="hero">
-    <nav class="nav">
-      <div class="logo">ReserveNow</div>
-      <a class="nav-link" href="#reserve">Book Now</a>
-    </nav>
-
-    <div class="hero-content">
-      <p class="eyebrow">Simple online reservations</p>
-      <h1>Book your next reservation in seconds.</h1>
+    <div class="hero-center">
+      <img class="site-logo" src="img/logo.PNG" alt="Negombo House Logo">
+      <h1>Welcome to Our Tropical House in Negombo</h1>
       <p class="hero-text">
-        Reserve tables, rooms, or appointments with a clean and easy booking experience.
+        A peaceful white, blue, and orange coastal home in Sri Lanka, designed for a warm and relaxing stay.
       </p>
-      <div class="hero-actions">
-        <a class="btn primary" href="#reserve">Make a Reservation</a>
-        <a class="btn secondary" href="#services">View Services</a>
-      </div>
     </div>
   </header>
 
+  <section class="slider-section">
+    <div class="slider-container">
+      <div class="slider-track">
+        <img src="https://picsum.photos/1200/700?random=11" alt="House view 1" class="slide active">
+        <img src="https://picsum.photos/1200/700?random=12" alt="House view 2" class="slide">
+        <img src="https://picsum.photos/1200/700?random=13" alt="House view 3" class="slide">
+      </div>
+
+      <button class="slider-btn prev" type="button" aria-label="Previous slide">&#10094;</button>
+      <button class="slider-btn next" type="button" aria-label="Next slide">&#10095;</button>
+    </div>
+  </section>
+
   <main>
-    <section id="services" class="section">
-      <h2>What you can reserve</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Restaurant Tables</h3>
-          <p>Book a table for lunch, dinner, or special events.</p>
-        </div>
-        <div class="card">
-          <h3>Hotel Rooms</h3>
-          <p>Find and reserve a comfortable room with ease.</p>
-        </div>
-        <div class="card">
-          <h3>Appointments</h3>
-          <p>Schedule meetings, services, or consultations online.</p>
-        </div>
+    <section id="about" class="section about-section">
+      <h2>About</h2>
+      <div class="content-card">
+        <p>
+          Our house is located in beautiful Negombo, Sri Lanka, close to the beach, lagoon, and local attractions.
+          It offers a fresh tropical atmosphere with a comfortable and welcoming feel.
+        </p>
+        <p>
+          The design reflects the coastal charm of Negombo with bright colors, clean spaces, and a relaxed island style.
+        </p>
       </div>
     </section>
 
-    <section id="reserve" class="section reserve-box">
-      <h2>Quick Reservation</h2>
-      <form class="reserve-form">
-        <label>
-          Full Name
-          <input type="text" placeholder="Enter your name">
-        </label>
-
-        <label>
-          Email
-          <input type="email" placeholder="Enter your email">
-        </label>
-
-        <label>
-          Date
-          <input type="date">
-        </label>
-
-        <label>
-          Time
-          <input type="time">
-        </label>
-
-        <label>
-          Reservation Type
-          <select>
-            <option>Restaurant Table</option>
-            <option>Hotel Room</option>
-            <option>Appointment</option>
-          </select>
-        </label>
-
-        <button type="submit" class="btn primary full-width">Confirm Reservation</button>
-      </form>
+    <section id="contact" class="section contact-section">
+      <h2>Contact</h2>
+      <div class="content-card contact-grid">
+        <div>
+          <h3>Get in Touch</h3>
+          <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+          <p>Phone: <a href="tel:+94700000000">+94 70 000 0000</a></p>
+          <p>Location: Negombo, Sri Lanka</p>
+        </div>
+        <div>
+          <h3>Visit Us</h3>
+          <p>We’d love to welcome you to our tropical home by the coast.</p>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>&copy; 2026 ReserveNow. All rights reserved.</p>
+    <p>&copy; 2026 Negombo House. All rights reserved.</p>
   </footer>
+
+  <script src="js/app.js"></script>
 </body>
 
 </html>
