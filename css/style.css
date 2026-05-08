@@ -114,11 +114,12 @@ body {
 /* Hero Section */
 .hero-section {
   height: 100vh;
-  background:
-          linear-gradient(rgba(30, 58, 95, 0.3), rgba(212, 148, 30, 0.2)),
-          url('img/oruwa.png');
+  background: 
+    linear-gradient(rgba(30, 58, 95, 0.3), rgba(212, 148, 30, 0.2)),
+    url('../img/oruwa.png');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
