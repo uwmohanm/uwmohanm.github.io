@@ -116,7 +116,7 @@ body {
   height: 100vh;
   background:
           linear-gradient(rgba(30, 58, 95, 0.3), rgba(212, 148, 30, 0.2)),
-          url('https://picsum.photos/1920/1080?random=1');
+          url('img/oruwa.png');
   background-size: cover;
   background-position: center;
   display: flex;
